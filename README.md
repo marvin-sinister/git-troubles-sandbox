@@ -29,25 +29,22 @@ If you want to skip some already known parts of the session, you can work on the
 * Local troubles
    - Edit any file of your choice. Don't commit. Restore it to the original state.
    - Change the message of the latest commit.
-   - Ask git to change the content of the latest commit (update a file*), without promting you for its message update.
+   - [marker] Ask git to change the content of the latest commit (update some file), without prompting you for its message update.
    - Undo the last commit, but keep the changes.
    - Restore everything to the point where the commit message was updated. (with a --hard option)
-   - Restore a commit where you changed the file*.
+   - Restore a commit where you changed the file, see [marker] above.
    - Reorder the last two commits on the `change-original` branch.
    - Execute `rm -r *` **in a your local copy of this repo**. How to restore all files? Will the git history be available?
    - Meld together last two commits on the `change-original` branch.
    - Add a new file somewhere in the middle of the history using `rebase -i --autosquash` feature of git.
    - Remove all entries of file `feature.py` from the whole history. How to do it on all branches?
-   - Move commits from the `extra-commit` branch to the `master` branch.
+   - Move commits from the `extra-commit` branch on top of the `master` branch.
    - Change the `sample.conf` file on the `master` branch but don't commit. Then create a file and commit it on the `change-original` branch. Make some changes to the `sample.conf` file on the `master` branch again. On the `change-original` branch create another file and commit. Then on the master branch commit only the first changes you made to the `sample.conf` file, i.e. before creating the first file on the `change-original` branch.
-   
- * Public troubles
-   - Get content of file `README.md` at point of commit `41f4f1245264b73ae71a661978fab999abdfde56`, but keep everything else in your workspace untouched.
-   - Remove file `feature.py` from the repository, but keep it in workspace.
-   - Find the commit which was last modified file `sample.py` and get locally the content from that time of the file.
-   - Change a commit message of the 3rd change backwards from `master`.
-   - From `master` branch rename branch `feature` to `feature-renamed`
-   - Find a commit which introduced a BUG between `6d3f70c91eafb9cfcb5ba593cc6c15f4cca51538` and `2ccc9a5b03dc81c14b70f0ca4861df93935954f5` commits. Use `run_tests.sh` to verify existence of the bug.
+   - Return the content of the `README.md` file to the stait of commit `41f4f1245264b73ae71a661978fab999abdfde56`, but keep everything else in your workspace untouched.
+   - Update file `feature.py` file and commit the change. 
+   - Change the commit message of the 3rd change backwards from `master`.
+   - From the `master` branch rename the `feature` branch to `feature-renamed`.
+   - Find the commit which introduced a BUG between `6d3f70c91eafb9cfcb5ba593cc6c15f4cca51538` and `2ccc9a5b03dc81c14b70f0ca4861df93935954f5` commits. Use `run_tests.sh` to verify existence of the bug.
 
 # Solutions
 
