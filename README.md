@@ -22,5 +22,9 @@ If you want to skip some already known parts of the session, you can work on the
 * Add a new file somewhere in the middle of history using `autosquash` feature of git
 * Remove all entries of file `feature.py` from whole history
 * Make changes in `extra-commit` on track to `master` branch
-
-
+* From `master` change `sample.conf` but don't make a commit from them. Then remove 2nd commit back on `master`, but preserve 1st commit. Then finish your commit on `master`
+* Get content of file `README.md` at point of commit `41f4f1245264b73ae71a661978fab999abdfde56`, but keep everything else in your workspace untouched.
+* Remove file `feature.py` from remository, but keep it in workspace.
+* Find commit which was last modified file `sample.py` and get locally the content from that time of the file.
+* Change a commit message 3rd change backwards from `master`
+* From `master` branch rename branch `feature` to `feature-renamed`
