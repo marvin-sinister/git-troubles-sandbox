@@ -1,6 +1,10 @@
 # Git troubles - workshop handout
 
-by Irina Gulina and Martin Pavlasek
+by Irina Gulina and Martin Pavlasek, DevConf.CZ January 25 - 27 2019, Brno
+
+https://devconfcz2019.sched.com/event/660ca861954d288b0336ae7e1060ae0b
+
+This is a sandbox repository for playing with git commands. 
 
 If you want to skip some already known parts of the session, you can work on these tasks independently.
 
