@@ -28,3 +28,4 @@ If you want to skip some already known parts of the session, you can work on the
 * Find commit which was last modified file `sample.py` and get locally the content from that time of the file.
 * Change a commit message 3rd change backwards from `master`
 * From `master` branch rename branch `feature` to `feature-renamed`
+* Find a commit which introduced a BUG between `6d3f70c91eafb9cfcb5ba593cc6c15f4cca51538` and `2ccc9a5b03dc81c14b70f0ca4861df93935954f5` commits. Use `run_tests.sh` to verify existence of the bug.
